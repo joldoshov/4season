@@ -1,0 +1,81 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background: linear-gradient(90deg, #72072D 0%, #FF005C 100%);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+
+}
+
+.search {
+    background: rgba(196, 196, 196, 0.14);
+    border: 1px solid #FFFFFF;
+    border-radius: 16px;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: rgba(255, 255, 255, 0.6);
+    width: 530px;
+    height: 35px;
+}
+.icon{
+    display: flex;
+  flex-direction: column;
+    align-items: center;
+}
+.hero{
+    display: flex;
+}
+#hero{
+    background: url("../img/Rectangle 2256.png");
+
+
+
+}
+.img{
+    display: flex;
+    justify-content: start;
+}
+.text{
+
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    /* identical to box height */
+    color: #72072D;
+padding: 30px 50px;
+
+}
+.card{
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    color: #FF005C;
+
+}
